@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8j5BENejEeyIjKAZ-geUbQ" name="Zustandsdiagramm">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_8lBpgNejEeyIjKAZ-geUbQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_BzerYNekEeyIjKAZ-geUbQ" name="StateMachine2">
+    <region xmi:type="uml:Region" xmi:id="_CD3QwNekEeyIjKAZ-geUbQ" name="Increasing score">
+      <transition xmi:type="uml:Transition" xmi:id="_NhLzMNelEeyIjKAZ-geUbQ" name="[button Play Game]" source="_MapeYNekEeyIjKAZ-geUbQ" target="_hfX1YNekEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Sc3DANelEeyIjKAZ-geUbQ" name="[button go back]" source="_hfX1YNekEeyIjKAZ-geUbQ" target="_PnLPUNelEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_S_5eoNelEeyIjKAZ-geUbQ" name="[button Play Game]" source="_PnLPUNelEeyIjKAZ-geUbQ" target="_hfX1YNekEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ZhlqANelEeyIjKAZ-geUbQ" name="[button Exit]" source="_PnLPUNelEeyIjKAZ-geUbQ" target="_Yj9kINelEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_nKiL8NelEeyIjKAZ-geUbQ" source="_l6mOENelEeyIjKAZ-geUbQ" target="_MapeYNekEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-iH9cNelEeyIjKAZ-geUbQ" name="[calculate score]" source="_hfX1YNekEeyIjKAZ-geUbQ" target="_62KCANelEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="__FzSQNelEeyIjKAZ-geUbQ" name="[resume]" source="_62KCANelEeyIjKAZ-geUbQ" target="_hfX1YNekEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AAN2oNenEeyIjKAZ-geUbQ" source="_hfX1YNekEeyIjKAZ-geUbQ" target="_8NdWsNemEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_7NvJoNenEeyIjKAZ-geUbQ" name="[R]" source="_8NdWsNemEeyIjKAZ-geUbQ" target="_tgSiMNenEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_8u4MQNenEeyIjKAZ-geUbQ" name="[wasd]" source="_8NdWsNemEeyIjKAZ-geUbQ" target="_viSPINenEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9mM10NenEeyIjKAZ-geUbQ" name="[enter]" source="_8NdWsNemEeyIjKAZ-geUbQ" target="_w2uSgNenEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AMBokNeoEeyIjKAZ-geUbQ" source="_tgSiMNenEeyIjKAZ-geUbQ" target="_--bNANenEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CFJGUNeoEeyIjKAZ-geUbQ" source="_viSPINenEeyIjKAZ-geUbQ" target="_--bNANenEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CxWFANeoEeyIjKAZ-geUbQ" source="_w2uSgNenEeyIjKAZ-geUbQ" target="_--bNANenEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HUCNENeoEeyIjKAZ-geUbQ" source="_--bNANenEeyIjKAZ-geUbQ" target="_hfX1YNekEeyIjKAZ-geUbQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TQuBgNeoEeyIjKAZ-geUbQ" source="_Yj9kINelEeyIjKAZ-geUbQ" target="_Qb_QENeoEeyIjKAZ-geUbQ"/>
+      <subvertex xmi:type="uml:State" xmi:id="_MapeYNekEeyIjKAZ-geUbQ" name="Initializing"/>
+      <subvertex xmi:type="uml:State" xmi:id="_hfX1YNekEeyIjKAZ-geUbQ" name="Playing"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PnLPUNelEeyIjKAZ-geUbQ" name="Interrupted"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Yj9kINelEeyIjKAZ-geUbQ" name="Exiting"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_l6mOENelEeyIjKAZ-geUbQ"/>
+      <subvertex xmi:type="uml:State" xmi:id="_62KCANelEeyIjKAZ-geUbQ" name="Evaluating"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_8NdWsNemEeyIjKAZ-geUbQ" kind="fork"/>
+      <subvertex xmi:type="uml:State" xmi:id="_tgSiMNenEeyIjKAZ-geUbQ" name="Rotating"/>
+      <subvertex xmi:type="uml:State" xmi:id="_viSPINenEeyIjKAZ-geUbQ" name="Moving"/>
+      <subvertex xmi:type="uml:State" xmi:id="_w2uSgNenEeyIjKAZ-geUbQ" name="Placing"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_--bNANenEeyIjKAZ-geUbQ" kind="join"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_Qb_QENeoEeyIjKAZ-geUbQ"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZHlOkNelEeyIjKAZ-geUbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZHo48NelEeyIjKAZ-geUbQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

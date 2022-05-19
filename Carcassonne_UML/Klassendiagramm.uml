@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PO_e8NXbEeyc6ZuY-422PQ" name="NewCarcassonneKlassenDiagramm">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_PP2akNXbEeyc6ZuY-422PQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QwQjwNXjEeyc6ZuY-422PQ" name="GameDisplay">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mEQs4NXjEeyc6ZuY-422PQ" name="serialVersionUID" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LKKogNXkEeyc6ZuY-422PQ" name="Image" type="_eYyVUNXrEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RHil4NXkEeyc6ZuY-422PQ" name="tileMap" type="_pOpEkNXrEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SjQV8NXkEeyc6ZuY-422PQ" name="positionOnMap" type="_sK7PgNXrEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sxls4NXkEeyc6ZuY-422PQ" name="positionOfCursor" type="_sK7PgNXrEeyc6ZuY-422PQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZJanENXjEeyc6ZuY-422PQ" name="GameDisplay"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bQ-JcNXjEeyc6ZuY-422PQ" name="paintComponent" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eFPA0NXjEeyc6ZuY-422PQ" name="setTileMap"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fqNakNXjEeyc6ZuY-422PQ" name="setCursorTile"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hCsQcNXjEeyc6ZuY-422PQ" name="setPositionOnMap"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iStG0NXjEeyc6ZuY-422PQ" name="setPositionOfCursor"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZfXzgNXkEeyc6ZuY-422PQ" name="FrameHandler">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iBRjINXkEeyc6ZuY-422PQ" name="serialVersionUID" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qa5rENXlEeyc6ZuY-422PQ" name="FrameHandler"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vcbEMNXlEeyc6ZuY-422PQ" name="Initiator">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1SwlcNXlEeyc6ZuY-422PQ" name="main" isStatic="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ymH4sNXoEeyc6ZuY-422PQ" name="args">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SnWuoNXrEeyc6ZuY-422PQ" name="TileSet">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v1utUNXrEeyc6ZuY-422PQ" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_z3ergNXrEeyc6ZuY-422PQ" name="x" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3CAGwNXrEeyc6ZuY-422PQ" name="y" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8npgoNXrEeyc6ZuY-422PQ" name="TileSet">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__yS3sNXrEeyc6ZuY-422PQ" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BZCMANXsEeyc6ZuY-422PQ" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_C9zxcNXsEeyc6ZuY-422PQ" name="y">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DzmxANXsEeyc6ZuY-422PQ" name="getID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IdefINXsEeyc6ZuY-422PQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K-JsINXsEeyc6ZuY-422PQ" name="getX">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OPYMUNXsEeyc6ZuY-422PQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PCuU0NXsEeyc6ZuY-422PQ" name="getY">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RvRaoNXsEeyc6ZuY-422PQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eYyVUNXrEeyc6ZuY-422PQ" name="List&lt;BufferedImage>"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nidPkNXrEeyc6ZuY-422PQ" name="JFrame"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pOpEkNXrEeyc6ZuY-422PQ" name="List&lt;TileSet>"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sK7PgNXrEeyc6ZuY-422PQ" name="Vector2D">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZMxG8NXsEeyc6ZuY-422PQ" name="x">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ck1O8NXsEeyc6ZuY-422PQ" name="y">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eXCMYNXsEeyc6ZuY-422PQ" name="Vector2D"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fwfSoNXsEeyc6ZuY-422PQ" name="Vector2D">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_h_BmwNXsEeyc6ZuY-422PQ" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_l1WYENXsEeyc6ZuY-422PQ" name="y">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t2JlwNXsEeyc6ZuY-422PQ" name="PanelHandler">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1-iCINXsEeyc6ZuY-422PQ" name="serialVersionUID" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5wR1cNXsEeyc6ZuY-422PQ" name="gDisplay" type="_QwQjwNXjEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q6kI8NXtEeyc6ZuY-422PQ" name="score" type="_lSiJcNXtEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vZytUNXtEeyc6ZuY-422PQ" name="SCREEN_WIDTH" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yv0N8NXtEeyc6ZuY-422PQ" name="SCREEN_HEIGHT" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_22DDgNXtEeyc6ZuY-422PQ" name="tileMap" isStatic="true" type="_pOpEkNXrEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KErbkNXuEeyc6ZuY-422PQ" name="positionOnMap" isStatic="true" type="_sK7PgNXrEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_P4-VcNXuEeyc6ZuY-422PQ" name="positionOfCursor" isStatic="true" type="_sK7PgNXrEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WyUy4NXuEeyc6ZuY-422PQ" name="cursorTileID" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Zj0qINXuEeyc6ZuY-422PQ" name="scoreValue" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nG_7QNXuEeyc6ZuY-422PQ" name="random" type="_jJye0NXuEeyc6ZuY-422PQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sqrFkNX2Eeyc6ZuY-422PQ" name="gamedisplay" type="_QwQjwNXjEeyc6ZuY-422PQ" association="_sqkX4NX2Eeyc6ZuY-422PQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_squv8NX2Eeyc6ZuY-422PQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sqzBYNX2Eeyc6ZuY-422PQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tAs5kNXuEeyc6ZuY-422PQ" name="PanelHandler"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vu8ogNXuEeyc6ZuY-422PQ" name="showMenu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xbtsUNXuEeyc6ZuY-422PQ" name="showHelp"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yK5GgNXuEeyc6ZuY-422PQ" name="showGame"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yYkoENXsEeyc6ZuY-422PQ" name="JPanel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZM2KANXtEeyc6ZuY-422PQ" name="KeyAdapter"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lSiJcNXtEeyc6ZuY-422PQ" name="JLabel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jJye0NXuEeyc6ZuY-422PQ" name="Random"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z5tYwNXuEeyc6ZuY-422PQ" name="EventHandler">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__g0l0NXuEeyc6ZuY-422PQ" name="keyPressed">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_C-auENXvEeyc6ZuY-422PQ" name="e" type="_DtzjoNXvEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DtzjoNXvEeyc6ZuY-422PQ" name="KeyEvent"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nj39INXxEeyc6ZuY-422PQ" name="MouseEventHandler">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RVs1UNXyEeyc6ZuY-422PQ" name="mouseClicked">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_baWxINXyEeyc6ZuY-422PQ" name="e" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UM_ykNXyEeyc6ZuY-422PQ" name="mouseEntered">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_n1sQcNXyEeyc6ZuY-422PQ" name="arg0" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VDEe8NXyEeyc6ZuY-422PQ" name="mouseExited">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pTUsENXyEeyc6ZuY-422PQ" name="e" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_V6AuANXyEeyc6ZuY-422PQ" name="mousePressed">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1lQ-0NXyEeyc6ZuY-422PQ" name="e" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WzIuYNXyEeyc6ZuY-422PQ" name="mouseReleased">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6jArMNXyEeyc6ZuY-422PQ" name="e" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_X8FTcNXyEeyc6ZuY-422PQ" name="mouseDragged">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7gMsMNXyEeyc6ZuY-422PQ" name="e" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Yyf-ENXyEeyc6ZuY-422PQ" name="mouseMoved">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8wblANXyEeyc6ZuY-422PQ" name="e" type="_dWd4gNXyEeyc6ZuY-422PQ"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MIHWINXyEeyc6ZuY-422PQ" name="MouseListener"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dWd4gNXyEeyc6ZuY-422PQ" name="MouseEvent"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gdvygNXyEeyc6ZuY-422PQ" name="MouseMotionListener"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sqkX4NX2Eeyc6ZuY-422PQ" memberEnd="_sqrFkNX2Eeyc6ZuY-422PQ _sq2rwNX2Eeyc6ZuY-422PQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sqpQYNX2Eeyc6ZuY-422PQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sqpQYdX2Eeyc6ZuY-422PQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sq2rwNX2Eeyc6ZuY-422PQ" name="panelhandler" type="_t2JlwNXsEeyc6ZuY-422PQ" association="_sqkX4NX2Eeyc6ZuY-422PQ"/>
+  </packagedElement>
+</uml:Model>

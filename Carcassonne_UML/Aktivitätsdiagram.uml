@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WBdzENaxEeyTZZIH0KSLKA" name="Aktivitätsdiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_WEwXoNaxEeyTZZIH0KSLKA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_WCaOQNaxEeyTZZIH0KSLKA" name="Activity1" node="_IcltQNa7EeyIjKAZ-geUbQ _McwXENa7EeyIjKAZ-geUbQ _WbZxgNa7EeyIjKAZ-geUbQ _ZzvmUNa7EeyIjKAZ-geUbQ _ax_-UNa7EeyIjKAZ-geUbQ _LKBHYNa8EeyIjKAZ-geUbQ _uVpHoNa8EeyIjKAZ-geUbQ _vWlx0Na9EeyIjKAZ-geUbQ _OniPwNa_EeyIjKAZ-geUbQ _ZBwL4Na_EeyIjKAZ-geUbQ _6WppINbBEeyIjKAZ-geUbQ _fWupkNbCEeyIjKAZ-geUbQ _Q2cagNbDEeyIjKAZ-geUbQ _uDmw4NbGEeyIjKAZ-geUbQ _21e2MNbGEeyIjKAZ-geUbQ _6WpP0NbGEeyIjKAZ-geUbQ _Y_wHINbHEeyIjKAZ-geUbQ _dVKywNbIEeyIjKAZ-geUbQ _y1KwgNbIEeyIjKAZ-geUbQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Mc9LYNa7EeyIjKAZ-geUbQ" target="_McwXENa7EeyIjKAZ-geUbQ" source="_IcltQNa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_npB7INa7EeyIjKAZ-geUbQ" name="help" target="_WbZxgNa7EeyIjKAZ-geUbQ" source="_McwXENa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5LoPMNa7EeyIjKAZ-geUbQ" name="exit" target="_ax_-UNa7EeyIjKAZ-geUbQ" source="_McwXENa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__MbUANa7EeyIjKAZ-geUbQ" name="game field" target="_ZzvmUNa7EeyIjKAZ-geUbQ" source="_McwXENa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QOTgoNa8EeyIjKAZ-geUbQ" name="start screen" target="_McwXENa7EeyIjKAZ-geUbQ" source="_LKBHYNa8EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xzkAANa8EeyIjKAZ-geUbQ" target="_uVpHoNa8EeyIjKAZ-geUbQ" source="_ax_-UNa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hs-2oNa_EeyIjKAZ-geUbQ" name="yes" target="_OniPwNa_EeyIjKAZ-geUbQ" source="_ZBwL4Na_EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9yTGENbAEeyIjKAZ-geUbQ" target="_6WppINbBEeyIjKAZ-geUbQ" source="_OniPwNa_EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6XG8INbBEeyIjKAZ-geUbQ" name="no" target="_6WppINbBEeyIjKAZ-geUbQ" source="_ZBwL4Na_EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fXHrINbCEeyIjKAZ-geUbQ" name="back" target="_fWupkNbCEeyIjKAZ-geUbQ" source="_WbZxgNa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nhJtUNbCEeyIjKAZ-geUbQ" target="_LKBHYNa8EeyIjKAZ-geUbQ" source="_fWupkNbCEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Z05jQNbDEeyIjKAZ-geUbQ" name="back" target="_fWupkNbCEeyIjKAZ-geUbQ" source="_Q2cagNbDEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HJuoINbEEeyIjKAZ-geUbQ" target="_y1KwgNbIEeyIjKAZ-geUbQ" source="_6WppINbBEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Kb3HQNbEEeyIjKAZ-geUbQ" target="_Q2cagNbDEeyIjKAZ-geUbQ" source="_ZzvmUNa7EeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__6B_4NbGEeyIjKAZ-geUbQ" target="_21e2MNbGEeyIjKAZ-geUbQ" source="_uDmw4NbGEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AnbRYNbHEeyIjKAZ-geUbQ" target="_6WpP0NbGEeyIjKAZ-geUbQ" source="_uDmw4NbGEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VoepUNbHEeyIjKAZ-geUbQ" target="_uDmw4NbGEeyIjKAZ-geUbQ" source="_Q2cagNbDEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZAP2YNbHEeyIjKAZ-geUbQ" target="_Y_wHINbHEeyIjKAZ-geUbQ" source="_uDmw4NbGEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xpAU0NbHEeyIjKAZ-geUbQ" target="_Y_wHINbHEeyIjKAZ-geUbQ" source="_6WpP0NbGEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zY1TsNbHEeyIjKAZ-geUbQ" target="_Y_wHINbHEeyIjKAZ-geUbQ" source="_21e2MNbGEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dVtlUNbIEeyIjKAZ-geUbQ" target="_dVKywNbIEeyIjKAZ-geUbQ" source="_Y_wHINbHEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qGAoANbIEeyIjKAZ-geUbQ" target="_vWlx0Na9EeyIjKAZ-geUbQ" source="_dVKywNbIEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_y1uxMNbIEeyIjKAZ-geUbQ" target="_y1KwgNbIEeyIjKAZ-geUbQ" source="_dVKywNbIEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_99xcoNbIEeyIjKAZ-geUbQ" target="_Q2cagNbDEeyIjKAZ-geUbQ" source="_y1KwgNbIEeyIjKAZ-geUbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NNJJ0NbJEeyIjKAZ-geUbQ" target="_ZBwL4Na_EeyIjKAZ-geUbQ" source="_vWlx0Na9EeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_IcltQNa7EeyIjKAZ-geUbQ" outgoing="_Mc9LYNa7EeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_McwXENa7EeyIjKAZ-geUbQ" name="" incoming="_Mc9LYNa7EeyIjKAZ-geUbQ _QOTgoNa8EeyIjKAZ-geUbQ" outgoing="_npB7INa7EeyIjKAZ-geUbQ _5LoPMNa7EeyIjKAZ-geUbQ __MbUANa7EeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WbZxgNa7EeyIjKAZ-geUbQ" name="Help" incoming="_npB7INa7EeyIjKAZ-geUbQ" outgoing="_fXHrINbCEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZzvmUNa7EeyIjKAZ-geUbQ" name="Play Game" incoming="__MbUANa7EeyIjKAZ-geUbQ" outgoing="_Kb3HQNbEEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ax_-UNa7EeyIjKAZ-geUbQ" name="Exit Game" incoming="_5LoPMNa7EeyIjKAZ-geUbQ" outgoing="_xzkAANa8EeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LKBHYNa8EeyIjKAZ-geUbQ" name="Go Back" incoming="_nhJtUNbCEeyIjKAZ-geUbQ" outgoing="_QOTgoNa8EeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_uVpHoNa8EeyIjKAZ-geUbQ" incoming="_xzkAANa8EeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vWlx0Na9EeyIjKAZ-geUbQ" name="Place tile" incoming="_qGAoANbIEeyIjKAZ-geUbQ" outgoing="_NNJJ0NbJEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OniPwNa_EeyIjKAZ-geUbQ" name="Increase score" incoming="_hs-2oNa_EeyIjKAZ-geUbQ" outgoing="_9yTGENbAEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_ZBwL4Na_EeyIjKAZ-geUbQ" name="Similar terrain?" incoming="_NNJJ0NbJEeyIjKAZ-geUbQ" outgoing="_hs-2oNa_EeyIjKAZ-geUbQ _6XG8INbBEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_6WppINbBEeyIjKAZ-geUbQ" incoming="_6XG8INbBEeyIjKAZ-geUbQ _9yTGENbAEeyIjKAZ-geUbQ" outgoing="_HJuoINbEEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_fWupkNbCEeyIjKAZ-geUbQ" incoming="_fXHrINbCEeyIjKAZ-geUbQ _Z05jQNbDEeyIjKAZ-geUbQ" outgoing="_nhJtUNbCEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_Q2cagNbDEeyIjKAZ-geUbQ" incoming="_Kb3HQNbEEeyIjKAZ-geUbQ _99xcoNbIEeyIjKAZ-geUbQ" outgoing="_Z05jQNbDEeyIjKAZ-geUbQ _VoepUNbHEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_uDmw4NbGEeyIjKAZ-geUbQ" name="" incoming="_VoepUNbHEeyIjKAZ-geUbQ" outgoing="__6B_4NbGEeyIjKAZ-geUbQ _AnbRYNbHEeyIjKAZ-geUbQ _ZAP2YNbHEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_21e2MNbGEeyIjKAZ-geUbQ" name="Rotate tile" incoming="__6B_4NbGEeyIjKAZ-geUbQ" outgoing="_zY1TsNbHEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6WpP0NbGEeyIjKAZ-geUbQ" name="Move tile" incoming="_AnbRYNbHEeyIjKAZ-geUbQ" outgoing="_xpAU0NbHEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_Y_wHINbHEeyIjKAZ-geUbQ" incoming="_ZAP2YNbHEeyIjKAZ-geUbQ _xpAU0NbHEeyIjKAZ-geUbQ _zY1TsNbHEeyIjKAZ-geUbQ" outgoing="_dVtlUNbIEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_dVKywNbIEeyIjKAZ-geUbQ" name="" incoming="_dVtlUNbIEeyIjKAZ-geUbQ" outgoing="_qGAoANbIEeyIjKAZ-geUbQ _y1uxMNbIEeyIjKAZ-geUbQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_y1KwgNbIEeyIjKAZ-geUbQ" incoming="_y1uxMNbIEeyIjKAZ-geUbQ _HJuoINbEEeyIjKAZ-geUbQ" outgoing="_99xcoNbIEeyIjKAZ-geUbQ"/>
+  </packagedElement>
+</uml:Model>
